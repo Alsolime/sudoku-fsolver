@@ -6,6 +6,8 @@ void main() {
 }
 
 class SudokuApp extends StatelessWidget {
+  const SudokuApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,6 +20,8 @@ class SudokuApp extends StatelessWidget {
 }
 
 class SudokuSolver extends StatefulWidget {
+  const SudokuSolver({super.key});
+
   @override
   _SudokuSolverState createState() => _SudokuSolverState();
 }
